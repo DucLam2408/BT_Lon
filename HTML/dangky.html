@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/dangky.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../font/fontawesome-free-6.0.0-web/css/all.min.css">
+    <script src="../Js/jquery-3.6.0.min.js"></script>
+    <script src="../Js/bootstrap.min.js"></script>
+    <script src="../Js/main.js"></script>
+    <title>Đăng Ký</title>
+
+    <!-- <style>
+        [class*="col-"]{
+            padding: 0 !important;
+        }
+    </style> -->
+
+</head>
+<div class="dk">
+<a  href="#" class="navbar-link nutDK" id="btnDK">click vào đây để Đăng ký</a>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br>
+        <h1 class="tieu_de2">Thông Tin Khách Hàng Đã Đăng Ký <br></h1>
+           <section>
+                    <table class="table table-striped" id="danhsach">
+                        <tr>
+                            <th>
+                                <tr class="chudam">
+                                    <td>STT</td>
+                                    <!-- <td>Mã SV</td> -->
+                                    <td>Tên Khách Hàng</td>
+                                    <!-- <td>ngày tham gia</td>s -->
+                                    <td style="padding-left: 20px;">Email</td>
+                                    <td style="margin-right: 200px;" >Số điện thoại</td>
+                                </tr>
+                            </th>
+                        </tr>
+                    </table>
+                </section>
+
+
+
+    <div class="modal fade" role="dialog" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header justify-content-center" style="color: red;">
+                    THÔNG TIN ĐĂNG KÝ
+                </div>
+                <div class="modal-body">
+                    <form action="" method="get" class="form-horizontal">
+                        <!-- <div class="form-group">
+                            <label for="lblMaSV">Mã sinh viên:</label>
+                            <input type="text" name="txtMaSV" id="txtMaSV" class="form-control" placeholder="Mã sinh viên">
+                            <span id="tbMaSV" class="text-danger">*</span>
+                        </div> -->
+
+                        <div class="form-group">
+                            <label for="lblMaSV">Họ tên:</label>
+                            <input type="text" name="txtHT" id="txtHT" class="form-control" placeholder="Họ tên">
+                            <span id="tbHT" class="text-danger">*</span>
+                        </div>
+
+                        <!-- <div class="form-group">
+                            <label for="lblMaSV">Ngày tham gia:</label>
+                            <input type="date" name="txtNgay" id="txtNgay" class="form-control">
+                            <span id="tbNgay" class="text-danger">*</span>
+                        </div> -->
+
+                        <div class="form-group">
+                            <label for="lblMaSV">Email:</label>
+                            <input type="email" name="txtEmail" id="txtEmail" class="form-control" placeholder="Địa chỉ email">
+                            <span id="tbEmail" class="text-danger">*</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lblMaSV">Số điện thoại:</label>
+                            <input type="text" name="txtSDT" id="txtSDT" class="form-control" placeholder="Số điện thoại">
+                            <span id="tbSDT" class="text-danger">*</span>
+                        </div>
+
+                    </form>
+                    <div class="modal-footer justify-content-center nutsm">
+                        <button type="submit" id="btnSubDK" class="btn btn-warning chudk ">Đăng Ký</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer class="footer">
+        <div class="grid">
+            <div class="grid__row">
+                 <div class="grid__column-2-4">
+                     <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                     <ul class="footer-list">
+                         <li class="footer-item">
+                             <a href="hotro.html" class="footer-item__link">Trung tâm trợ giúp</a>
+                          </li>
+                          <li class="footer-item">
+                             <a href="balodulich.html" class="footer-item__link">LN-Shop Mall</a>
+                         </li>
+                         <li class="footer-item">
+                             <a href="huongdan.html" class="footer-item__link">Hướng dẫn mua hàng</a>
+                         </li>
+                     </ul>
+                 </div>
+                 <div class="grid__column-2-4">
+                     <h3 class="footer__heading">Giới thiệu</h3>
+                     <ul class="footer-list">
+                         <li class="footer-item">
+                             <a href="" class="footer-item__link">Giới thiệu</a>
+                         </li>
+                         <li class="footer-item">
+                             <a href="tuyendung.html" class="footer-item__link">Tuyển dụng</a>
+                         </li>
+                         <li class="footer-item">
+                             <a href="dieukhoan.html" class="footer-item__link">Điều khoản</a>
+                         </li>
+                     </ul>
+                 </div>
+
+                 <div class="grid__column-2-4">
+                     <h3 class="footer__heading">Danh mục</h3>
+                     <ul class="footer-list">
+                         <li class="footer-item">
+                             <a href="tuidulich.html" class="footer-item__link">Túi du lịch cao cấp</a>
+                         </li>
+                         <li class="footer-item">
+                             <a href="balodulich.html" class="footer-item__link">Balo du lịch cao cấp</a>
+                         </li>
+                     </ul>
+                 </div>
+                 <div class="grid__column-2-4">
+                     <h3 class="footer__heading">Theo dõi</h3>
+                     <ul class="footer-list">
+                         <li class="footer-item">
+                             <a href="" class="footer-item__link">
+                                 <i class="footer-item__icon fab fa-facebook"></i>
+                                 Facebook
+                             </a>
+                         </li>
+                         <li class="footer-item">
+                             <a href="" class="footer-item__link">
+                                 <i class="footer-item__icon fab fa-instagram"></i>
+                                 Instagram
+                             </a>
+                         </li>
+                         <li class="footer-item">
+                             <a href="" class="footer-item__link">
+                                 <i class="footer-item__icon fab fa-linkedin"></i>
+                                 Linkedin
+                             </a>
+                         </li>
+                     </ul>
+
+                 </div>
+                 <div class="grid__column-2-4">
+                     <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+
+                 </div>
+            </div>
+
+            <div class="footer__bottom">
+                <div class="grid__row">
+                    <p>2022 - Bản quyền thuộc về LN-Shop</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

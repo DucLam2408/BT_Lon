@@ -1,0 +1,103 @@
+.category-item__link-1{
+    color: var(--primary-color) ;
+    position: relative;
+    text-decoration: none;
+    font-size: 1.4rem;
+    /* color: var(--text-color); */
+    padding: 8px 16px;
+    display: block;
+    transition: right linear 0.1;
+    right: 0;
+}
+
+
+.category-item__link-2::before{
+    content: "";
+    top: 50%;
+    left: 4px;
+    position: absolute;
+    border: 4px solid;
+    transform: translateY(-50%);
+    border-color: transparent transparent transparent var(--primary-color);
+}
+.heading--ds{
+    margin-left: 20px;
+    font-size: 1.4rem;
+}
+
+
+.o-chi-tiet {
+    font-size: 2rem;
+    width: 421.8px;
+    height: 600px;
+    background-color: #ffffff;
+    float: left;
+    border: 0.01px solid #ffbe0d;
+    text-align: center;
+    margin-left: 6px;
+    margin-top: 5px;
+}
+
+.o-chi-tiet img {
+    width: 400px;
+    height: 380px;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+.o-chi-tiet a {
+    font-size: large;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.o-chi-tiet:hover a {
+    color: #ffbe0d;
+}
+
+.o-chi-tiet p {
+    font-size: large;
+    color: red;
+    font-weight: bold;
+}
+
+.noi-dung-mo-ta-sp {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    padding: 0px 20px;
+    text-align: justify;
+    float: left;
+    width: 600px;
+    height: 600px;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.button {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: larger;
+    text-align: center;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+.button:hover {
+    background-color: #ffbe0d;
+    color: #52240f;
+    box-shadow: 0 8px 16px 0 #343a40;
+}
+
+.nut-mua{
+    font-weight: 400;
+    color: #fff;
+    font-size: 1.4rem;
+    width: 35%;
+    background-color: var(--primary-color);
+}

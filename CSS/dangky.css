@@ -1,0 +1,78 @@
+.dk{
+  margin-left: 650px;
+  margin-top: 150px;
+  padding-left: 90px;
+  width: 23%;
+  background-color: var(--primary-color);
+  color: aliceblue;
+}
+
+.tieu_de2{
+  padding-left: 700px;
+  color: brown;
+}
+
+.nutDK{
+  /* padding-right: 20px; */
+  color: #ffff;
+  font-weight: 450;
+  text-align: center;
+  text-decoration: none !important;
+  font-size: 2.5rem;
+}
+
+.modal-body{
+  font-size: 2rem;
+}
+
+body{
+  font-size: 2rem;
+}
+
+.form-control{
+  font-size: 1.5rem;
+  height: 40px
+}
+
+.chudam{
+  font-weight: 500;
+}
+
+.chudk{
+  font-size: 1.5rem;
+}
+
+.footer{
+  padding-top: 16px;
+  border-top: 4px solid var(--primary-color) ;
+}
+
+.footer__heading{
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.footer-list{
+  padding-left: 0px;
+  list-style: none;
+}
+
+.footer-item__link{
+  text-decoration: none !important;
+  font-size: 1.2rem;
+  color: #666;
+  padding: 2px 0;
+  display: flex;
+
+}
+
+.footer-item__link:hover{
+  color: var(--primary-color);
+}
+
+.footer-item__icon{
+  font-size: 1.7rem;
+  margin: -1px 8px 0 0  ;
+  
+}

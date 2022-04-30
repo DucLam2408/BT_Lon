@@ -1,0 +1,134 @@
+
+/*đặt tên biến cho màu để dễ sử dụng  */
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color:#fe6433;
+    --header-height: 120px;
+    --navbar-height: 34px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+}
+
+*{
+    box-sizing: inherit;
+}
+
+/*css kiểu chữ, kích cỡ chữ  */
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* những màn hinh có kích thước lớn hơn 1500px sẽ đc chuyển về 1500px  */
+.grid{
+    width: 1500px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.grid__column-2{
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 16.6667%;
+}
+
+.grid__column-2-4{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
+
+.grid__column-10{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.3334%;
+  }
+
+  .btn{
+    min-width: 100px;
+    height: 34px;
+    background-color: var(--white-color);
+    color: #000;
+    outline: none;
+    cursor: pointer;
+    display: inline-flex;
+    line-height: 1.6rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;  
+  }
+
+  .btn--primary{
+    padding: 2px 10px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+  }
+
+
+  /* selection */
+
+  .select-input{
+      position: relative;
+      min-width: 200px;
+      height: 34px;
+      padding: 0 12px;
+      border-radius: 2px;
+      background-color: var(--white-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 2;
+  }
+
+  .select-input__label{
+      font-size: 1.4rem;
+  }
+
+  .select-input__icon{
+    font-size: 1.4rem;
+    color: rgb(131, 131, 131);
+    position: relative;
+    top: 1px;
+  }
+
+  .select-input__list{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    border-radius: 2px;
+    background-color: var(--white-color);
+    padding: 8px 16px;
+    list-style: none;
+    display: none;
+}
+
+.select-input:hover .select-input__list{
+    display: block;
+}
+
+.select-input__link{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    text-decoration: none !important;
+    display: block;
+    padding: 4px 0;
+}
+
+.select-input__link:hover{
+    color: var(--primary-color);
+}
